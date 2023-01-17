@@ -58,7 +58,7 @@
               </vertical>
             </scan>
             <range>
-              <min>0.9</min>
+              <min>0.2</min>
               <max>75.</max>
               <resolution>0.03</resolution>
             </range>
@@ -67,9 +67,9 @@
             <robotNamespace>/</robotNamespace>
             <topicName>/os1_cloud_node/points</topicName>
             <frameName>os1</frameName>
-            <min_range>0.9</min_range>
+            <min_range>0.2</min_range>
             <max_range>75.</max_range>
-            <gaussianNoise>0.0001</gaussianNoise>
+            <gaussianNoise>0.0001</gaussianNoise><!--if 0, default value from "datasheet" is applied-->
           </plugin>
         </sensor>
       </gazebo>
